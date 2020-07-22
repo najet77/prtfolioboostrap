@@ -5,7 +5,13 @@
   "repository": "https://github.com/najet77/prtfolioboostrap.git",
   "author": "najet77 <soussinajet91@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "http-server -p 9000"
+  },
   "dependencies": {
     "http-server": "^0.12.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0"
   }
 }
